@@ -1,2 +1,5 @@
-# swiftui-visual-effects
-Visual effects for SwiftUI
+# SwiftUI Visual Effects
+
+```swift
+.visualEffect(material: .sidebar, blendingMode: .behindWindow)
+```
