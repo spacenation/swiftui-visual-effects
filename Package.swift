@@ -12,6 +12,7 @@ let package = Package(
         .library(name: "VisualEffects", targets: ["VisualEffects"])
     ],
     targets: [
-        .target(name: "VisualEffects", dependencies: [])
+        .target(name: "VisualEffects", dependencies: []),
+        .testTarget(name: "VisualEffectsTests", dependencies: ["VisualEffects"])
     ]
 )
